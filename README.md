@@ -42,3 +42,11 @@ It took 5.200538873672485 seconds to complete
 </tr>
 </table>
 
+A quick demo is provided with the script to demostrate the classification of a random list of numbers with the length of x, as a user input.
+
+``` bash
+python3 classify_numbers.py
+Give a number x to see a demo on the random list of x numbers (100): 10
+{464057190: 'abundant', 744825380: 'abundant', 827963983: 'deficient', 212821868: 'abundant', 676698850: 'deficient', 757949428: 'deficient', 900876147: 'deficient', 981751179: 'deficient', 963908645: 'deficient', 808543110: 'abundant'}
+It took 0.029466867446899414 seconds to complete the classification.
+```
