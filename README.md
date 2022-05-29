@@ -58,3 +58,9 @@ It took 0.029466867446899414 seconds to complete the classification.
 As directed in the question, the [index.html](./Exercise2/index.html) uses [Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) method to download the 3 JSON files and generates one line chart and one pie chart with [Highcharts](https://www.highcharts.com/docs/index) APIs which is a first timer to me :smile: . 
 
 ![Never Stop Learning](https://i.pinimg.com/564x/9e/6f/38/9e6f38cb23cd1dfc631e6dfd658fa693.jpg)
+
+### TODO
+- [x] Dark mode for the charts
+- [ ] Found a bug with the data being processed in the Javascript, looks like it's related to do with the reducer function
+- [ ] Modularize the JS functions and stylesheet
+- [ ] Contact the media
