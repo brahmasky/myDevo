@@ -50,3 +50,11 @@ Give a number x to see a demo on the random list of x numbers (100): 10
 {464057190: 'abundant', 744825380: 'abundant', 827963983: 'deficient', 212821868: 'abundant', 676698850: 'deficient', 757949428: 'deficient', 900876147: 'deficient', 981751179: 'deficient', 963908645: 'deficient', 808543110: 'abundant'}
 It took 0.029466867446899414 seconds to complete the classification.
 ```
+
+## Exercise 2
+
+> Given 3 data sets, you are required to create a web page that can read the 3 data sources through ajax, and displays 2 highcharts graphs, a line graph with date on X-axis with as many series as categories, and a pie chart per category, grouping the total data (sum of values by each category).
+
+As directed in the question, the [index.html](./Exercise2/index.html) uses [Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) method to download the 3 JSON files and generates one line chart and one pie chart with [Highcharts](https://www.highcharts.com/docs/index) APIs which is a first timer to me :smile: . 
+
+![Never Stop Learning](https://i.pinimg.com/564x/9e/6f/38/9e6f38cb23cd1dfc631e6dfd658fa693.jpg)
