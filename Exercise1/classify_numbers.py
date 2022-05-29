@@ -1,4 +1,5 @@
 import math
+import random, time
  
 def proper_divisors(n):
   '''Return a list of proper divisors of a given number n'''
@@ -61,3 +62,15 @@ def classify_numbers_with_prime_factor(number_list):
     else:
       result[n] = 'abundant'
   return result
+
+if __name__=='__main__':
+  input = int(input("Give a number x to see a demo on the random list of x numbers (100): ") or "100")
+
+  # generate a random list of x integers between one and 1,000,000,000
+  random_list=[random.randint(1,1000000000) for i in range(input)]
+
+  # timing the check_pefect function
+  start_time = time.time()
+  print(classify_numbers(random_list))
+  
+  print('It took {} seconds to complete the classification.'.format(time.time()-start_time))
