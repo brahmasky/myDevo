@@ -50,7 +50,7 @@ def classify_numbers(number_list):
   return result
 
 def classify_numbers_with_prime_factor(number_list):
-  '''Classify number using sum_factors function'''
+  '''Classify number using sum_factors function and return result in dictionary'''
   result={}
   for n in number_list:
     # sum all proper divisors and minus the given number itself
