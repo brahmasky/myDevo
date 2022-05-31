@@ -61,6 +61,6 @@ As directed in the question, the [index.html](./Exercise2/index.html) uses [Prom
 
 ### TODO
 - [x] Dark mode for the charts
-- [ ] Found a bug with the data being processed in the Javascript, looks like it's related to do with the reducer function
-- [ ] Modularize the JS functions and stylesheet
+- [x] Modularize the JS functions and stylesheet
+- [x] The 'bug' of reducer is acutally a finding that the reducers does mutate the values in original array, but the calculation is actually correct
 
