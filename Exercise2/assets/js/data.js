@@ -89,7 +89,7 @@ Promise.all(responses.map(response =>
 
   // group the data series by category with reducer
   let lineChartSeries = final.reduce(groupByCategory, []);
-  console.log('lineChartSeries',lineChartSeries);
+  // console.log('lineChartSeries',lineChartSeries);
   createLineChart(lineChartSeries);
 
   // prepare pie char series
@@ -98,7 +98,7 @@ Promise.all(responses.map(response =>
   final.reduce(sumByCategory, []).forEach(item => {
     pieChartSeries.push({name: item.category, y: item.value*100/sumAllData})
   });
-  console.log('pieChartSeries', pieChartSeries);
+  // console.log('pieChartSeries', pieChartSeries);
 
   createPieChart(pieChartSeries);
 
